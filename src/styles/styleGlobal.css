@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+
+@media(max-width:1130px){
+  html{
+    font-size: 55%;
+  }
+}
+@media(max-width:995px){
+  html{
+    font-size: 42.5%;
+  }
+}
+@media(max-width:810px){
+  html{
+    font-size: 38.8%;
+  }
+}
+
