@@ -1,6 +1,6 @@
 import {   
          Routes,
-         Route } from 'react-router-dom'
+         Route, Navigate } from 'react-router-dom'
 
 import { Header } from '../Layout/Header'
 
@@ -19,7 +19,8 @@ export default function App() {
       <ConatinerPrincipal>
       <Header/>
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Inicio />}/> 
+        <Route path="/portifolio" element={<Navigate to="/" />}/> 
         <Route path="formacao" element={<Formacao />} />
         <Route path="projetos" element={<Projetos />} />
         <Route path="sobre" element={<Sobre />} />

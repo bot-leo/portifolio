@@ -25,8 +25,8 @@ export const ContainerButton = styled.button`
   transition: 0.4s;
 
   :hover{
-    background: ${props => props.displayHeader ? props.theme.themeLight.colors.purpleLight : 'none'};
-    color: ${props => props.displayHeader ? props.theme.themeLight.colors.whiteLight : props.theme.themeLight.colors.purpleLight};
+    background: ${props => props.theme.themeLight.colors.purpleLight };
+    color: ${props => props.theme.themeLight.colors.whiteLight };
   }
 
   @media (max-width:810px) {
