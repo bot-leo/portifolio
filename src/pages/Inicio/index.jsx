@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Slider from 'react-slick'
 
-
 import { CardSkill } from '../../components/CardSkill'
 import { TextRegular } from '../../components/TextRegular'
 import { TitleRegular } from '../../components/TitleRegular'
