@@ -7,6 +7,8 @@ export const SimpleText = styled.text`
 
   color:${props => props.theme.themeLight.colors.blackLigth};
 
+  text-align:${props => props.center ? 'center' : 'none'};
+
   @media(max-width:810px) {
     font-size: 1.8rem;
   }

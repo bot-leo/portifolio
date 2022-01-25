@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
-  width: 100%;
+  width: 85%;
   max-width: 85%;
   height: 80vh;
   background-color: ${props => props.theme.themeLight.colors.whiteLight};

@@ -13,8 +13,11 @@ export const ContainerCard = styled.div`
   align-items: center;
 
   border-style: solid;
+  border-color:${props => props.theme.themeLight.colors.purpleLight};
   border-width: 3px;
   border-radius: 25px;
+
+  color:${props => props.theme.themeLight.colors.purpleLight};
 `
 
 

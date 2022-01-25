@@ -33,6 +33,21 @@ export const ContainerButton = styled.button`
       height: 3vh;
   }
 `
+
+export const LinkContainer = styled.a`
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  text-decoration: none;
+
+  cursor:pointer;
+  color: inherit;
+`
 export const TextButton = styled.text`
   font-family: 'Poppins', sans-serif;
   font-size: ${props => props.fontSize ? props.fontSize : '1.8rem'};

@@ -16,7 +16,7 @@ export const ContainerContentGeneric = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding-inline:75px;
+  padding-inline:15px;
 
   align-items: center;
 

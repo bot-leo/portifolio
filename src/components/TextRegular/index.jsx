@@ -1,7 +1,7 @@
 import { SimpleText } from "./style";
 
-export function TextRegular({dicriptionText}){
+export function TextRegular({dicriptionText,center}){
   return(
-    <SimpleText>{dicriptionText}</SimpleText>
+    <SimpleText center={center}>{dicriptionText}</SimpleText>
   )
 }

@@ -29,17 +29,20 @@ export function MenuSidebar(){
                        nameButton={'GitHub'} 
                        iconButton={<FontAwesomeIcon 
                                     icon={faGithub} 
-                                   />}/>
+                                   />}
+                                   linkButton={'https://github.com/bot-leo'}/>
         <ButtonRegular displaySidebar 
                        nameButton={'Linkedin'} 
                        iconButton={<FontAwesomeIcon 
                                     icon={faLinkedin} 
-                                   />}/>
+                                   />}
+                       linkButton={'https://www.linkedin.com/in/leonardo-lima-de-souza/'}/>
         <ButtonRegular displaySidebar 
                        nameButton={'Whats'} 
                        iconButton={<FontAwesomeIcon 
                                     icon={faWhatsappSquare} 
-                                   />}/>
+                                   />}
+                            linkButton={'https://api.whatsapp.com/send?phone=5511910679181'}/>
         
       </ContainerButtons>
     </ContainerSidebar>

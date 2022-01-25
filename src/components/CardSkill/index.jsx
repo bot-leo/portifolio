@@ -10,7 +10,7 @@ export function CardSkill({iconName, nameSkill, progressSkill}){
     <ContainerCard>
       {iconName ? <FontAwesomeIcon icon={iconName} size={'3x'}/> : null}
 
-      <TextRegular dicriptionText={nameSkill}/>
+      <TextRegular dicriptionText={nameSkill} center/>
 
      
       <div style={{ width: '5vw', height: 'auto' }}>
