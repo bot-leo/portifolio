@@ -27,7 +27,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "ci": "yarn install --frozen-lockfile",
+    "ci": "yarn install --immutable --immutable-cache --check-cache",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
